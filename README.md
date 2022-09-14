@@ -15,7 +15,13 @@ If there is no cached audio, the application connects directly to AWS Polly usin
 
 ## Config
 
-Put polly.conf into /etc/asterisk
+Put into /etc/asterisk/polly.conf
+
+[general]
+
+cache_dir = /tmp
+aws_access_key_id = your aws access key
+aws_secret_access_key = your aws secret key
 
 ## Compiling
 
