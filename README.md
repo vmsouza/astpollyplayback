@@ -33,4 +33,4 @@ LIBS+= -lssl -lcrypto
 
 ## Running inside dialplan
 
-exten => n,pollyplayback(this is my first sound with polly)
+same => n,pollyplayback(this is my first sound with polly)
