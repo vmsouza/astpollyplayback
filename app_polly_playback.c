@@ -6,6 +6,10 @@
  * This program is free software, distributed under the terms of
  * the GNU General Public License Version 3. See the LICENSE file
  * at the top of the source tree.
+ *
+ * Need to connect to AWS Polly to synth
+ * Convert mp3/slin file downloaded to gsm and save into cache_dir
+ *
  */
 
 /*! \file
